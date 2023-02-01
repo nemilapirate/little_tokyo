@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Tokyo - Restaurant Japonais à Conflans Sainte Honorine</title>
+    <meta name="description" content="Restaurant traditionnel Japonais à Conflans Sainte Honorine.">
+    <link rel="icon" href="ressources/icons8-daruma-doll-color-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Open+Sans:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header id="home">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">Nos valeurs</a></li>
+          <li><a href="#prestations">Prestations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggler" aria-label="Ouvrir et fermer le menu en mode mobile">
+          <img src="ressources/hamburger.svg" alt="" />
+        </button>
+      </nav>
+      <div class="hero">
+        <h1 class="main-title">Little Tokyo</h1>
+        <p class="main-subtitle">Restaurant Japonais traditionnel à Conflans Ste Honorine</p>
+        <a href="#prestations" class="hero-link hero-link-1">
+          <span>Prestations</span>
+        </a>
+        <a href="#contact" class="hero-link hero-link-2">
+          <span>Contact</span>
+        </a>
+
+        <a href="#about" class="push-down-hero">
+          <img src="ressources/chevron-down.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <!-- About section -->
+
+    <main>
+      <section class="about" id="about">
+        <h2 class="section-title">
+          <span>Les saveur traditionnelles du Japon</span>
+        </h2>
+        <p class="section-subtitle">Nos chefs sont à votre service</p>
+
+        <div class="container about-content">
+          <div class="about-text">
+            <h3 class="heading-h3">
+              <span>Entre tradition et modernité</span>
+            </h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              sit error aliquid a, ipsa, quae alias, corporis id quos voluptas
+              beatae labore aut natus consequuntur porro sunt! Ratione, hic
+              voluptates?
+            </p>
+            <h3 class="heading-h3">
+              <span>Découvrez notre carte.</span>
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              aliquet sed massa nisl mauris sed sollicitudin amet, natoque.
+            </p>
+          </div>
+          <div class="about-slideshow">
+            <div class="slideshow-image-container">
+              <img src="ressources/slider_1.jpg" alt="coiffeur coupant des cheveux avec un peigne et un ciseau" class="active">
+              <img src="ressources/slider_2.jpg" alt="coiffeur rasant une nuque">
+              <img src="ressources/slider_3.jpg" alt="coiffeur utilisant un rasoir électrique">
+            </div>
+            <div class="dots fade-slide-dots">
+              <button aria-label="Montrer l'image 1" data-fadeIndex="1" class="dot active"></button>
+              <button aria-label="Montrer l'image 2" data-fadeIndex="2" class="dot"></button>
+              <button aria-label="Montrer l'image 3" data-fadeIndex="3" class="dot"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Section Prestations -->
+    
+    <section class="prestations" id="prestations">
+
+      <h2 class="section-title">
+        <span> Nos plats </span>
+        <img src="ressources/pack/008-comb.svg" alt="" />
+      </h2>
+      <p class="section-subtitle">À la carte</p>
+
+      <div class="container prestations-container">
+
+        <div class="prestations-card">
+          <h3 class="prestations-category-title">
+            <span>Mise en bouche</span>
+          </h3>
+          <ul class="prestations-list">
+            <li>
+              <h4 class="heading-h4"> Kushiague - 8€</h4>
+              <p>
+                <strong>Petite bouchées de légumes, crustacés et de viandes</strong>.
+              </p>
+              <p><em>Servi en 3 variant les textures et les goùut à chaque fois</em>.</p>
+            </li>
+            <li>
+              <h4 class="heading-h4">Sashimi de saison - 12€</h4>
+              <p>
+                <strong>Assortiments des meilleurs sashimi de la saison</strong>.
+              </p>
+              <p><em>Accompagné de wasabi</em>.</p>
+            </li>
+            <li>
+              <h4 class="heading-h4">Bento - 25€</h4>
+              <p>
+                <strong>coffret repas, comportant plusieurs compartiments</strong>.
+              </p>
+              <p>
+                <em>repas complet</em>
+              </p>
+            </li>
+            <li>
+              <h4 class="heading-h4">Jirashi - 35€</h4>
+              <p>
+                <strong>Sashimi de saumon avec de l'avocat</strong>
+              </p>
+              <p><em>Servi dans un bol traditionnel</em></p>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="prestations-card">
+          <h3 class="prestations-category-title">
+            <span>Les plats</span>
+            <img src="ressources/pack/023-scissors.svg" alt="" />
+          </h3>
+          <ul class="prestations-list">
+            <li>
+              <h4 class="heading-h4">Intermède - 20€</h4>
+              <p>
+                <strong>Mise en bouche avant les plats</strong>.
+              </p>
+              <p><em>Servi avec une soupe</em></p>
+            </li>
+            <li>
+              <h4 class="heading-h4">Ochazuké - 20€</h4>
+              <p>
+                Rasage au <strong>Soupe de riz au thé vert</strong>
+              </p>
+              <p><em>Avec des nouilles d'Inaniwa</em></p>
+            </li>
+            <li>
+              <h4 class="heading-h4">Kushiagué - 25€</h4>
+              <p>
+                <strong>15 sortes différents</strong>.
+              </p>
+              <p><em>Durée 45 minutes.</em></p>
+            </li>
+            <li>
+              <h4 class="heading-h4">plat de saison - 35€</h4>
+              <p><em>Avec les meilleurs ingrédients de saison</em></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+      
+    
+    <!-- Testimonial Section -->
+
+    <section class="testimonial">
+      <h2 class="comment-title">Avis de nos clients</h2>
+      <div class="text-slideshow-container">
+        <div class="sliding-container">
+          
+          <div class="text-slide">
+            <p class="testimonial-text">Le meilleur Restaurant japonais du 78</p>
+            <p class="testimonial-author">John doe</p>
+          </div>
+          <div class="text-slide">
+            <p class="testimonial-text">Toujours satisfait</p>
+            <p class="testimonial-author">Bob doe</p>
+          </div>
+          <div class="text-slide">
+            <p class="testimonial-text">Des saveurs extraordinaires</p>
+            <p class="testimonial-author">Albert doe</p>
+          </div>
+          <div class="text-slide">
+            <p class="testimonial-text">Jamais déçu</p>
+            <p class="testimonial-author">Kevin doe</p>
+          </div>
+          <div class="text-slide">
+            <p class="testimonial-text">Je le recommande</p>
+            <p class="testimonial-author">John doe</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  <!-- Contact  -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">
+        <span>Notre adresse</span>
+      </h2>
+      <p class="section-subtitle">
+        Nous sommes ouvert tous les jours
+      </p>
+
+      <div class="contact-content container">
+        <div class="addresses">
+          <div class="address-block">
+            <p>13 Rue de la Couronne,<br> 78000 Conflant Ste honorine</p>
+            <p>04 42 38 42 39</p>
+            <p>Little Tokyo</p>
+            <a href="#" aria-label="S'abonner à la page instagram de Little Tokyo">
+              <img src="ressources/instagram.svg" alt="">
+            </a>
+            <a href="#" aria-label="S'abonner à la page facebook de Little Tokyo">
+              <img src="ressources/facebook.svg" alt="">
+            </a>
+            <a href="#" aria-label="S'abonner à la page tiktok de Little Tokyo">
+              <img src="ressources/tiktok.svg" alt="">
+            </a>
+            <a href="#" aria-label="S'abonner à la page twitter de Little Tokyo">
+              <img src="ressources/twitter.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="schedule">
+          <h3 class="heading-h3">Horaires d'ouverture</h3>
+          <div class="schedule-table">
+            <p><span>Lundi</span> <span>09:00-19:00</span></p>
+            <p><span>Mardi</span> <span>09:00-19:00</span></p>
+            <p><span>Mercredi</span> <span>09:00-19:00</span></p>
+            <p><span>Jeudi</span> <span>09:00-19:00</span></p>
+            <p><span>Vendredi</span> <span>09:00-19:00</span></p>
+            <p><span>Samedi</span> <span>09:00-19:00</span></p>
+            <p><span>Dimanche</span> <span>Fermé</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a href="mentions.html">
+      <span>Thème Little Tokyo, Tous droits réservés.</span>
+    </a>
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
